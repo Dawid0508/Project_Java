@@ -9,6 +9,13 @@ import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 
 public class Main {
 	
@@ -16,12 +23,17 @@ public class Main {
         //Konfiguracja Log4j
     	System.setProperty("log4j.configurationFile","src/log4j2.xml");
     	PropertiesHandler propertiesHandler = new PropertiesHandler("nazwy_walut.txt");
+    	//String fileName = "nazwy_walut.txt";
+    	
+
     	
     	
     	//tworzenie obiektu Logging dla klasy Main
     	Logging loggingMain = new Logging(Main.class);
     	Logger loggerMain = loggingMain.getLogger();
     	
+    	//List<String> currencyNameList = new ArrayList<>();   //lista przechowujaca nazwy walut
+    	//saveListToFile("nazwy_walut.txt", currencyNameList);    	
     	int number = 1;
         try {
         	String targetUrl = "http://api.nbp.pl/api/exchangerates/tables/A/";
@@ -59,6 +71,8 @@ public class Main {
                 propertiesHandler.saveProperty(number, "Code: " +  currencyCode + ",Name: " + currencyName + ", Mida Rate: " + currencyMidRate);
                 number++;
                 
+                //currencyNameList.add(currencyName);
+                
             }
         } catch (Exception e) {
             loggingMain.logError("An error occurred.", e);
@@ -75,5 +89,6 @@ public class Main {
     		return false;
     	}
     }
+    
 }
 
