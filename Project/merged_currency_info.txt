@@ -1,0 +1,33 @@
+Currency: CHF, Name: frank szwajcarski, Mid Rate: 4.6538, Bid: 4.6154, Ask: 4.7086
+Currency: MXN, Name: peso meksykańskie, Mid Rate: 0.2338
+Currency: CLP, Name: peso chilijskie, Mid Rate: 0.004319
+Currency: ZAR, Name: rand (Republika Południowej Afryki), Mid Rate: 0.2129
+Currency: INR, Name: rupia indyjska, Mid Rate: 0.047756
+Currency: CNY, Name: yuan renminbi (Chiny), Mid Rate: 0.5533
+Currency: THB, Name: bat (Tajlandia), Mid Rate: 0.1134
+Currency: AUD, Name: dolar australijski, Mid Rate: 2.6604, Bid: 2.6283, Ask: 2.6813
+Currency: KRW, Name: won południowokoreański, Mid Rate: 0.003009
+Currency: ILS, Name: nowy izraelski szekel, Mid Rate: 1.0525
+Currency: JPY, Name: jen (Japonia), Mid Rate: 0.027365, Bid: 0.027291, Ask: 0.027843
+Currency: GBP, Name: funt szterling, Mid Rate: 5.0466, Bid: 4.9953, Ask: 5.0963
+Currency: IDR, Name: rupia indonezyjska, Mid Rate: 2.547E-4
+Currency: HUF, Name: forint (Węgry), Mid Rate: 0.011476, Bid: 0.011333, Ask: 0.011561
+Currency: PHP, Name: peso filipińskie, Mid Rate: 0.0705
+Currency: TRY, Name: lira turecka, Mid Rate: 0.1323
+Currency: ISK, Name: korona islandzka, Mid Rate: 0.028884
+Currency: HKD, Name: dolar Hongkongu, Mid Rate: 0.5071
+Currency: EUR, Name: euro, Mid Rate: 4.3413, Bid: 4.299, Ask: 4.3858
+Currency: DKK, Name: korona duńska, Mid Rate: 0.5822, Bid: 0.5765, Ask: 0.5881
+Currency: XDR, Name: SDR (MFW), Mid Rate: 5.302, Bid: 5.2473, Ask: 5.3533
+Currency: MYR, Name: ringgit (Malezja), Mid Rate: 0.8544
+Currency: CAD, Name: dolar kanadyjski, Mid Rate: 2.9659, Bid: 2.9322, Ask: 2.9914
+Currency: USD, Name: dolar amerykański, Mid Rate: 3.9656, Bid: 3.9278, Ask: 4.0072
+Currency: BGN, Name: lew (Bułgaria), Mid Rate: 2.2196
+Currency: NOK, Name: korona norweska, Mid Rate: 0.3838, Bid: 0.379, Ask: 0.3866
+Currency: RON, Name: lej rumuński, Mid Rate: 0.8732
+Currency: SGD, Name: dolar singapurski, Mid Rate: 2.9788
+Currency: CZK, Name: korona czeska, Mid Rate: 0.1763, Bid: 0.1749, Ask: 0.1785
+Currency: SEK, Name: korona szwedzka, Mid Rate: 0.3874, Bid: 0.3827, Ask: 0.3905
+Currency: NZD, Name: dolar nowozelandzki, Mid Rate: 2.4771
+Currency: BRL, Name: real (Brazylia), Mid Rate: 0.8081
+Currency: UAH, Name: hrywna (Ukraina), Mid Rate: 0.1037

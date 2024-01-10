@@ -42,8 +42,7 @@ public class Logging {
 	public Logger getLogger() {
 		return logger;
 	}
-	
-	
+		
 	public static void main(String[] args) {
 		//Przyklad uzycia
 		Logging logging = new Logging(Logging.class);

@@ -1,69 +1,158 @@
-1 = Code: THB,Name: bat (Tajlandia), Mida Rate: 0.1142
-2 = Code: USD,Name: dolar amerykański, Mida Rate: 3.899
-3 = Code: AUD,Name: dolar australijski, Mida Rate: 2.663
-4 = Code: HKD,Name: dolar Hongkongu, Mida Rate: 0.4989
-5 = Code: CAD,Name: dolar kanadyjski, Mida Rate: 2.951
-6 = Code: NZD,Name: dolar nowozelandzki, Mida Rate: 2.4671
-7 = Code: SGD,Name: dolar singapurski, Mida Rate: 2.9605
-8 = Code: EUR,Name: euro, Mida Rate: 4.3392
-9 = Code: HUF,Name: forint (Węgry), Mida Rate: 0.011363
-10 = Code: CHF,Name: frank szwajcarski, Mida Rate: 4.6671
-11 = Code: GBP,Name: funt szterling, Mida Rate: 4.9887
-12 = Code: UAH,Name: hrywna (Ukraina), Mida Rate: 0.1027
-13 = Code: JPY,Name: jen (Japonia), Mida Rate: 0.027703
-14 = Code: CZK,Name: korona czeska, Mida Rate: 0.1757
-15 = Code: DKK,Name: korona duńska, Mida Rate: 0.5821
-16 = Code: ISK,Name: korona islandzka, Mida Rate: 0.028794
-17 = Code: NOK,Name: korona norweska, Mida Rate: 0.386
-18 = Code: SEK,Name: korona szwedzka, Mida Rate: 0.3925
-19 = Code: RON,Name: lej rumuński, Mida Rate: 0.8722
-20 = Code: BGN,Name: lew (Bułgaria), Mida Rate: 2.2186
-21 = Code: TRY,Name: lira turecka, Mida Rate: 0.1324
-22 = Code: ILS,Name: nowy izraelski szekel, Mida Rate: 1.0796
-23 = Code: CLP,Name: peso chilijskie, Mida Rate: 0.004417
-24 = Code: PHP,Name: peso filipińskie, Mida Rate: 0.0701
-25 = Code: MXN,Name: peso meksykańskie, Mida Rate: 0.231
-26 = Code: ZAR,Name: rand (Republika Południowej Afryki), Mida Rate: 0.21
-27 = Code: BRL,Name: real (Brazylia), Mida Rate: 0.8077
-28 = Code: MYR,Name: ringgit (Malezja), Mida Rate: 0.8462
-29 = Code: IDR,Name: rupia indonezyjska, Mida Rate: 2.5285E-4
-30 = Code: INR,Name: rupia indyjska, Mida Rate: 0.046863
-31 = Code: KRW,Name: won południowokoreański, Mida Rate: 0.00303
-32 = Code: CNY,Name: yuan renminbi (Chiny), Mida Rate: 0.5486
-33 = Code: XDR,Name: SDR (MFW), Mida Rate: 5.2831
-2 = Code: USD,Name: dolar amerykański, Mida Rate: 3.899
-9 = Code: HUF,Name: forint (Węgry), Mida Rate: 0.011363
-15 = Code: DKK,Name: korona duńska, Mida Rate: 0.5821
-19 = Code: RON,Name: lej rumuński, Mida Rate: 0.8722
-20 = Code: BGN,Name: lew (Bułgaria), Mida Rate: 2.2186
-24 = Code: PHP,Name: peso filipińskie, Mida Rate: 0.0701
-25 = Code: MXN,Name: peso meksykańskie, Mida Rate: 0.231
-26 = Code: ZAR,Name: rand (Republika Południowej Afryki), Mida Rate: 0.21
-31 = Code: KRW,Name: won południowokoreański, Mida Rate: 0.00303
-2 = Code: USD,Name: dolar amerykański, Mida Rate: 3.899
-9 = Code: HUF,Name: forint (Węgry), Mida Rate: 0.011363
-15 = Code: DKK,Name: korona duńska, Mida Rate: 0.5821
-19 = Code: RON,Name: lej rumuński, Mida Rate: 0.8722
-20 = Code: BGN,Name: lew (Bułgaria), Mida Rate: 2.2186
-24 = Code: PHP,Name: peso filipińskie, Mida Rate: 0.0701
-25 = Code: MXN,Name: peso meksykańskie, Mida Rate: 0.231
-26 = Code: ZAR,Name: rand (Republika Południowej Afryki), Mida Rate: 0.21
-31 = Code: KRW,Name: won południowokoreański, Mida Rate: 0.00303
-2 = Code: USD,Name: dolar amerykański, Mida Rate: 3.899
-9 = Code: HUF,Name: forint (Węgry), Mida Rate: 0.011363
-15 = Code: DKK,Name: korona duńska, Mida Rate: 0.5821
-19 = Code: RON,Name: lej rumuński, Mida Rate: 0.8722
-20 = Code: BGN,Name: lew (Bułgaria), Mida Rate: 2.2186
-24 = Code: PHP,Name: peso filipińskie, Mida Rate: 0.0701
-25 = Code: MXN,Name: peso meksykańskie, Mida Rate: 0.231
-26 = Code: ZAR,Name: rand (Republika Południowej Afryki), Mida Rate: 0.21
-31 = Code: KRW,Name: won południowokoreański, Mida Rate: 0.00303
-2 = Code: USD,Name: dolar amerykański, Mida Rate: 3.899
-9 = Code: HUF,Name: forint (Węgry), Mida Rate: 0.011363
-15 = Code: DKK,Name: korona duńska, Mida Rate: 0.5821
-19 = Code: RON,Name: lej rumuński, Mida Rate: 0.8722
-20 = Code: BGN,Name: lew (Bułgaria), Mida Rate: 2.2186
-24 = Code: PHP,Name: peso filipińskie, Mida Rate: 0.0701
-25 = Code: MXN,Name: peso meksykańskie, Mida Rate: 0.231
-26 = Code: ZAR,Name: rand (Republika Południowej Afryki), Mida Rate: 0.21
-31 = Code: KRW,Name: won południowokoreański, Mida Rate: 0.00303
+Currency: CHF, Name: frank szwajcarski, Mid Rate: 4.6718
+Currency: MXN, Name: peso meksykańskie, Mid Rate: 0.2336
+Currency: CLP, Name: peso chilijskie, Mid Rate: 0.004505
+Currency: ZAR, Name: rand (Republika Południowej Afryki), Mid Rate: 0.213
+Currency: INR, Name: rupia indyjska, Mid Rate: 0.047676
+Currency: CNY, Name: yuan renminbi (Chiny), Mid Rate: 0.5552
+Currency: THB, Name: bat (Tajlandia), Mid Rate: 0.1152
+Currency: AUD, Name: dolar australijski, Mid Rate: 2.676
+Currency: KRW, Name: won południowokoreański, Mid Rate: 0.003036
+Currency: ILS, Name: nowy izraelski szekel, Mid Rate: 1.0869
+Currency: JPY, Name: jen (Japonia), Mid Rate: 0.027583
+Currency: GBP, Name: funt szterling, Mid Rate: 5.0481
+Currency: IDR, Name: rupia indonezyjska, Mid Rate: 2.5619E-4
+Currency: HUF, Name: forint (Węgry), Mid Rate: 0.011468
+Currency: PHP, Name: peso filipińskie, Mid Rate: 0.0715
+Currency: TRY, Name: lira turecka, Mid Rate: 0.1329
+Currency: ISK, Name: korona islandzka, Mid Rate: 0.02892
+Currency: HKD, Name: dolar Hongkongu, Mid Rate: 0.5083
+Currency: EUR, Name: euro, Mid Rate: 4.3525
+Currency: DKK, Name: korona duńska, Mid Rate: 0.5835
+Currency: XDR, Name: SDR (MFW), Mid Rate: 5.326
+Currency: MYR, Name: ringgit (Malezja), Mid Rate: 0.8563
+Currency: CAD, Name: dolar kanadyjski, Mid Rate: 2.9785
+Currency: USD, Name: dolar amerykański, Mid Rate: 3.9684
+Currency: BGN, Name: lew (Bułgaria), Mid Rate: 2.2254
+Currency: NOK, Name: korona norweska, Mid Rate: 0.3858
+Currency: RON, Name: lej rumuński, Mid Rate: 0.8752
+Currency: SGD, Name: dolar singapurski, Mid Rate: 2.99
+Currency: CZK, Name: korona czeska, Mid Rate: 0.1766
+Currency: SEK, Name: korona szwedzka, Mid Rate: 0.3885
+Currency: NZD, Name: dolar nowozelandzki, Mid Rate: 2.4849
+Currency: BRL, Name: real (Brazylia), Mid Rate: 0.8065
+Currency: UAH, Name: hrywna (Ukraina), Mid Rate: 0.1044
+Currency: CHF, Name: frank szwajcarski, Mid Rate: 4.6714
+Currency: MXN, Name: peso meksykańskie, Mid Rate: 0.234
+Currency: CLP, Name: peso chilijskie, Mid Rate: 0.004483
+Currency: ZAR, Name: rand (Republika Południowej Afryki), Mid Rate: 0.2122
+Currency: INR, Name: rupia indyjska, Mid Rate: 0.047907
+Currency: CNY, Name: yuan renminbi (Chiny), Mid Rate: 0.5569
+Currency: THB, Name: bat (Tajlandia), Mid Rate: 0.1148
+Currency: AUD, Name: dolar australijski, Mid Rate: 2.6627
+Currency: KRW, Name: won południowokoreański, Mid Rate: 0.003023
+Currency: ILS, Name: nowy izraelski szekel, Mid Rate: 1.0824
+Currency: JPY, Name: jen (Japonia), Mid Rate: 0.027443
+Currency: GBP, Name: funt szterling, Mid Rate: 5.044
+Currency: IDR, Name: rupia indonezyjska, Mid Rate: 2.5682E-4
+Currency: HUF, Name: forint (Węgry), Mid Rate: 0.011498
+Currency: PHP, Name: peso filipińskie, Mid Rate: 0.0717
+Currency: TRY, Name: lira turecka, Mid Rate: 0.1335
+Currency: ISK, Name: korona islandzka, Mid Rate: 0.028893
+Currency: HKD, Name: dolar Hongkongu, Mid Rate: 0.5101
+Currency: EUR, Name: euro, Mid Rate: 4.3484
+Currency: XDR, Name: SDR (MFW), Mid Rate: 5.307
+Currency: MYR, Name: ringgit (Malezja), Mid Rate: 0.8562
+Currency: CAD, Name: dolar kanadyjski, Mid Rate: 2.9797
+Currency: USD, Name: dolar amerykański, Mid Rate: 3.985
+Currency: BGN, Name: lew (Bułgaria), Mid Rate: 2.2233
+Currency: NOK, Name: korona norweska, Mid Rate: 0.3859
+Currency: RON, Name: lej rumuński, Mid Rate: 0.8742
+Currency: SGD, Name: dolar singapurski, Mid Rate: 2.9925
+Currency: CZK, Name: korona czeska, Mid Rate: 0.1764
+Currency: NZD, Name: dolar nowozelandzki, Mid Rate: 2.4778
+Currency: BRL, Name: real (Brazylia), Mid Rate: 0.8136
+Currency: UAH, Name: hrywna (Ukraina), Mid Rate: 0.1047
+Currency: CHF, Name: frank szwajcarski, Mid Rate: 4.6793
+Currency: MXN, Name: peso meksykańskie, Mid Rate: 0.2359
+Currency: CLP, Name: peso chilijskie, Mid Rate: 0.004471
+Currency: ZAR, Name: rand (Republika Południowej Afryki), Mid Rate: 0.2127
+Currency: INR, Name: rupia indyjska, Mid Rate: 0.047886
+Currency: CNY, Name: yuan renminbi (Chiny), Mid Rate: 0.5559
+Currency: THB, Name: bat (Tajlandia), Mid Rate: 0.1137
+Currency: AUD, Name: dolar australijski, Mid Rate: 2.6668
+Currency: ILS, Name: nowy izraelski szekel, Mid Rate: 1.0751
+Currency: JPY, Name: jen (Japonia), Mid Rate: 0.027605
+Currency: GBP, Name: funt szterling, Mid Rate: 5.0543
+Currency: IDR, Name: rupia indonezyjska, Mid Rate: 2.5644E-4
+Currency: HUF, Name: forint (Węgry), Mid Rate: 0.011528
+Currency: TRY, Name: lira turecka, Mid Rate: 0.1334
+Currency: ISK, Name: korona islandzka, Mid Rate: 0.028897
+Currency: HKD, Name: dolar Hongkongu, Mid Rate: 0.5099
+Currency: EUR, Name: euro, Mid Rate: 4.3548
+Currency: DKK, Name: korona duńska, Mid Rate: 0.5839
+Currency: XDR, Name: SDR (MFW), Mid Rate: 5.3215
+Currency: CAD, Name: dolar kanadyjski, Mid Rate: 2.9761
+Currency: USD, Name: dolar amerykański, Mid Rate: 3.9812
+Currency: BGN, Name: lew (Bułgaria), Mid Rate: 2.2266
+Currency: NOK, Name: korona norweska, Mid Rate: 0.3845
+Currency: RON, Name: lej rumuński, Mid Rate: 0.8759
+Currency: SGD, Name: dolar singapurski, Mid Rate: 2.9922
+Currency: CZK, Name: korona czeska, Mid Rate: 0.1774
+Currency: SEK, Name: korona szwedzka, Mid Rate: 0.3873
+Currency: NZD, Name: dolar nowozelandzki, Mid Rate: 2.4819
+Currency: BRL, Name: real (Brazylia), Mid Rate: 0.8167
+Currency: UAH, Name: hrywna (Ukraina), Mid Rate: 0.1043
+Currency: CHF, Name: frank szwajcarski, Mid Rate: 4.6616
+Currency: MXN, Name: peso meksykańskie, Mid Rate: 0.2354
+Currency: CLP, Name: peso chilijskie, Mid Rate: 0.004388
+Currency: ZAR, Name: rand (Republika Południowej Afryki), Mid Rate: 0.2124
+Currency: INR, Name: rupia indyjska, Mid Rate: 0.047662
+Currency: CNY, Name: yuan renminbi (Chiny), Mid Rate: 0.5533
+Currency: THB, Name: bat (Tajlandia), Mid Rate: 0.1133
+Currency: AUD, Name: dolar australijski, Mid Rate: 2.6556
+Currency: KRW, Name: won południowokoreański, Mid Rate: 0.003004
+Currency: ILS, Name: nowy izraelski szekel, Mid Rate: 1.0694
+Currency: JPY, Name: jen (Japonia), Mid Rate: 0.027517
+Currency: GBP, Name: funt szterling, Mid Rate: 5.0446
+Currency: IDR, Name: rupia indonezyjska, Mid Rate: 2.5523E-4
+Currency: HUF, Name: forint (Węgry), Mid Rate: 0.011452
+Currency: PHP, Name: peso filipińskie, Mid Rate: 0.0707
+Currency: TRY, Name: lira turecka, Mid Rate: 0.1325
+Currency: ISK, Name: korona islandzka, Mid Rate: 0.028766
+Currency: HKD, Name: dolar Hongkongu, Mid Rate: 0.5069
+Currency: EUR, Name: euro, Mid Rate: 4.3351
+Currency: DKK, Name: korona duńska, Mid Rate: 0.5813
+Currency: XDR, Name: SDR (MFW), Mid Rate: 5.2914
+Currency: MYR, Name: ringgit (Malezja), Mid Rate: 0.8531
+Currency: CAD, Name: dolar kanadyjski, Mid Rate: 2.9665
+Currency: USD, Name: dolar amerykański, Mid Rate: 3.9612
+Currency: BGN, Name: lew (Bułgaria), Mid Rate: 2.2165
+Currency: NOK, Name: korona norweska, Mid Rate: 0.3821
+Currency: RON, Name: lej rumuński, Mid Rate: 0.872
+Currency: SGD, Name: dolar singapurski, Mid Rate: 2.9803
+Currency: CZK, Name: korona czeska, Mid Rate: 0.1763
+Currency: SEK, Name: korona szwedzka, Mid Rate: 0.3869
+Currency: NZD, Name: dolar nowozelandzki, Mid Rate: 2.4751
+Currency: BRL, Name: real (Brazylia), Mid Rate: 0.8133
+Currency: UAH, Name: hrywna (Ukraina), Mid Rate: 0.1034
+Currency: CHF, Name: frank szwajcarski, Mid Rate: 4.6538
+Currency: MXN, Name: peso meksykańskie, Mid Rate: 0.2338
+Currency: CLP, Name: peso chilijskie, Mid Rate: 0.004319
+Currency: ZAR, Name: rand (Republika Południowej Afryki), Mid Rate: 0.2129
+Currency: INR, Name: rupia indyjska, Mid Rate: 0.047756
+Currency: THB, Name: bat (Tajlandia), Mid Rate: 0.1134
+Currency: AUD, Name: dolar australijski, Mid Rate: 2.6604
+Currency: KRW, Name: won południowokoreański, Mid Rate: 0.003009
+Currency: ILS, Name: nowy izraelski szekel, Mid Rate: 1.0525
+Currency: JPY, Name: jen (Japonia), Mid Rate: 0.027365
+Currency: GBP, Name: funt szterling, Mid Rate: 5.0466
+Currency: IDR, Name: rupia indonezyjska, Mid Rate: 2.547E-4
+Currency: HUF, Name: forint (Węgry), Mid Rate: 0.011476
+Currency: PHP, Name: peso filipińskie, Mid Rate: 0.0705
+Currency: TRY, Name: lira turecka, Mid Rate: 0.1323
+Currency: ISK, Name: korona islandzka, Mid Rate: 0.028884
+Currency: HKD, Name: dolar Hongkongu, Mid Rate: 0.5071
+Currency: EUR, Name: euro, Mid Rate: 4.3413
+Currency: DKK, Name: korona duńska, Mid Rate: 0.5822
+Currency: XDR, Name: SDR (MFW), Mid Rate: 5.302
+Currency: MYR, Name: ringgit (Malezja), Mid Rate: 0.8544
+Currency: CAD, Name: dolar kanadyjski, Mid Rate: 2.9659
+Currency: USD, Name: dolar amerykański, Mid Rate: 3.9656
+Currency: BGN, Name: lew (Bułgaria), Mid Rate: 2.2196
+Currency: NOK, Name: korona norweska, Mid Rate: 0.3838
+Currency: RON, Name: lej rumuński, Mid Rate: 0.8732
+Currency: SGD, Name: dolar singapurski, Mid Rate: 2.9788
+Currency: SEK, Name: korona szwedzka, Mid Rate: 0.3874
+Currency: NZD, Name: dolar nowozelandzki, Mid Rate: 2.4771
+Currency: BRL, Name: real (Brazylia), Mid Rate: 0.8081
+Currency: UAH, Name: hrywna (Ukraina), Mid Rate: 0.1037

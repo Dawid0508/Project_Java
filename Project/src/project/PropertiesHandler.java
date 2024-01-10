@@ -22,12 +22,30 @@ public class PropertiesHandler {
     }
 
     public void saveProperty(Object key, String value) {
+        if (!isKeyExists(key)) {
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true))) {
+                properties.setProperty(key.toString(), value);
+                LOGGER.debug("klucz" + key + "wartosc" + value);
+                writer.write(key + " = " + value);
+                writer.newLine();
+                LOGGER.info("Property saved: " + key + " = " + value);
+ 
+            } catch (IOException e) {
+                e.printStackTrace();
+                LOGGER.error("An error occurred while saving property to file.", e);
+            }
+        } else {
+            LOGGER.info("Property already exists for key: " + key);
+        }
+
+    }
+    
+    public void saveProperty(String value) {
         if (!isValueExists(value)) {
             try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true))) {
-                String property = key + " = " + value;
-                writer.write(property);
+                writer.write(value);
                 writer.newLine();
-                LOGGER.info("Property saved: " + property);
+                LOGGER.debug("Property saved: " + value);
             } catch (IOException e) {
                 e.printStackTrace();
                 LOGGER.error("An error occurred while saving property to file.", e);
@@ -38,7 +56,25 @@ public class PropertiesHandler {
     }
 
     private boolean isValueExists(String value) {
-        return properties.values().stream().anyMatch(existingValue -> existingValue.equals(value));
+        return properties.containsValue(value.toString());
+    }
+    
+    public boolean doesLineExist(String line) {
+        try (FileInputStream input = new FileInputStream(fileName)) {
+            byte[] buffer = new byte[input.available()];
+            input.read(buffer);
+            String fileContent = new String(buffer);
+
+            return fileContent.contains(line);
+        } catch (IOException e) {
+            e.printStackTrace();
+            LOGGER.error("An error occurred while checking if line exists in the file.", e);
+            return false;
+        }
+    }
+
+    private boolean isKeyExists(Object key) {
+        return properties.containsKey(key.toString());
     }
 
     public String getProperty(String key) {
@@ -50,6 +86,8 @@ public class PropertiesHandler {
             properties.load(input);
         } catch (IOException e) {
             // Jeśli plik nie istnieje, zostanie utworzony przy pierwszym zapisie
+        	 e.printStackTrace();
+             LOGGER.error("An error occurred while loading properties from file.", e);
         }
     }
 }
