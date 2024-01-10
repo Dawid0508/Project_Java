@@ -178,7 +178,7 @@ public class CurrencyApp extends JFrame {
         setLayout(new BorderLayout());
         add(mainPanel, BorderLayout.CENTER);
 
-        setTitle("                                      CurrencyApp");
+        setTitle("CurrencyApp");
         
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pack();
